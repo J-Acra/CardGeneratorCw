@@ -1,0 +1,99 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+#dealerCardOutline1 {
+  width: 110px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background: whitesmoke;
+  color: #cc0033;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px black;
+}
+
+#dealerTopOfCard1 {
+  text-align: left;
+}
+#dealerBottomOfCard1 {
+  text-align: right;
+}
+#dealerCard1Value {
+  display: block;
+}
+#dealerCardOutline2 {
+  width: 110px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background: whitesmoke;
+  color: #cc0033;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px black;
+}
+
+#dealerTopOfCard2 {
+  text-align: left;
+}
+#dealerBottomOfCard2 {
+  text-align: right;
+}
+#dealerCard2Value {
+  display: block;
+}
+
+#headerBar {
+  background-image: url("https://st2.depositphotos.com/1434993/7160/i/950/depositphotos_71603857-stock-photo-red-casino-chips-black-background.jpg");
+  background-size: cover;
+}
+#playerCardOutline1 {
+  width: 110px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background: whitesmoke;
+  color: #cc0033;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px black;
+}
+#playerTopOfCard1 {
+  text-align: left;
+}
+#playerBottomOfCard1 {
+  text-align: right;
+}
+#playerCard1Value {
+  display: block;
+}
+#playerCardOutline2 {
+  width: 110px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background: whitesmoke;
+  color: #cc0033;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px black;
+}
+#playerTopOfCard2 {
+  text-align: left;
+}
+#playerBottomOfCard2 {
+  text-align: right;
+}
+#playerCard2Value {
+  display: block;
+}
+#playersHandVisual {
+}

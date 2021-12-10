@@ -3,7 +3,6 @@ import "bootstrap";
 import "./style.css";
 
 window.onload = function() {
-  document.getElementById("playersHandVisual").style.display = "none";
   let buttonPlaceHolder1 = document.querySelector("#genButton");
   buttonPlaceHolder1.addEventListener("click", generateDeck);
   let buttonPlaceHolder2 = document.querySelector("#shuffleButton");

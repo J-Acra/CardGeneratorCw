@@ -13,9 +13,48 @@
     <link rel="app.js" />
   </head>
   <body>
-    <div class="null">
+    <div id = 'headerBar' class="bg-opacity-75 text-center">
+      <h1 class='text-light'>ACRA'S BLACKJACK</h1>
+      <h3 class='text-light'>Come Lose Your Money</h2>
+    </div>
+    <div id="buttonBar1" class ="text-center">
       <button id="genButton">Generate Deck</button>
       <button id="shuffleButton">Shuffle Deck</button>
+    </div>
+    <div id='buttonBar2'class='text-center'>
+      <button id='GenerateHand'>DealHands</button>
+      <button id ='hitButton'>Hit</button>
+      <button id ='standButton'>Stand</button>
+    </div>
+    <div id='dealerHandText'class = ' text-center mt-5'>
+      <h4>Dealers Hand</h1>
+    </div>
+    <div id='DealersHandVisual' class="justify-content-center d-flex">
+      <div id="dealerCardOutline1" >
+        <div id="dealerTopOfCard1"><span id='dealerCard1Value'>A</span><span>&hearts;</span></div>
+        <h1>&hearts;</h1>
+        <div id="dealerBottomOfCard1"><span>&hearts;</span><span id='dealerCard1Value'>A</span></div>
+      </div>
+      <div id="dealerCardOutline2" >
+        <div id="dealerTopOfCard2"><span id='dealerCard2Value'>A</span><span>&hearts;</span></div>
+        <h1>&hearts;</h1>
+        <div id="dealerBottomOfCard2"><span>&hearts;</span><span id='dealerCard2Value'>A</span></div>
+      </div>
+    </div>
+    <div id ='playerHandText' class='text-center mt-5'>
+      <h4>Players Hand</h4>
+    </div>
+    <div id='playersHandVisual' class="justify-content-center d-flex">
+      <div id="playerCardOutline1" >
+        <div id="playerTopOfCard1"><span id='playerCard1Value'>A</span><span>&hearts;</span></div>
+        <h1>&hearts;</h1>
+        <div id="playerBottomOfCard1"><span>&hearts;</span><span id='playerCard1Value'>A</span></div>
+      </div>
+      <div id="playerCardOutline2" >
+        <div id= "playerTopOfCard2"><span id='playerCard2Value'>A</span><span>&hearts;</span></div>
+        <h1>&hearts;</h1>
+        <div id="playerBottomOfCard2"><span>&hearts;</span><span id='playerCard2Value'>A</span></div>
+      </div>
     </div>
   </body>
 </html>

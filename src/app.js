@@ -3,11 +3,19 @@ import "bootstrap";
 import "./style.css";
 
 window.onload = function() {
+  document.getElementById("playersHandVisual").style.display = "none";
   let buttonPlaceHolder1 = document.querySelector("#genButton");
   buttonPlaceHolder1.addEventListener("click", generateDeck);
   let buttonPlaceHolder2 = document.querySelector("#shuffleButton");
   buttonPlaceHolder2.addEventListener("click", shuffleBuild);
+  //let buttonPlaceHolder3 = document.querySelector("#hitCardButton");
+  //buttonPlaceHolder3.addEventListener("click", hitCard);
+  //let buttonPlaceHolder4 = document.querySelector("#standCardButton");
+  //buttonPlaceHolder4.addEventListener("click", standCard);
 
+  var playerHand = [];
+  var dealerHand = [];
+  var backAccount = [];
   var cards = [];
   var shuffledDeck = [];
   var deckOfCards = [];
@@ -17,9 +25,7 @@ window.onload = function() {
       b,
       c;
     while (a) {
-      // Pick a remaining element…
       c = Math.floor(Math.random() * a--);
-      // And swap it with the current element.
       b = cards[a];
       cards[a] = cards[c];
       cards[c] = b;
@@ -56,7 +62,5 @@ window.onload = function() {
       console.log(cards);
     }
   }
-
-  function getCardSuit() {}
-  function getCardNumber() {}
+  function hitCard() {}
 };

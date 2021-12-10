@@ -20,7 +20,7 @@
 #dealerBottomOfCard1 {
   text-align: right;
 }
-#dealerCard1Value {
+#dealerCard1ValueDisplay {
   display: block;
 }
 #dealerCardOutline2 {
@@ -43,7 +43,7 @@
 #dealerBottomOfCard2 {
   text-align: right;
 }
-#dealerCard2Value {
+#dealerCard2ValueDisplay {
   display: block;
 }
 
@@ -70,7 +70,7 @@
 #playerBottomOfCard1 {
   text-align: right;
 }
-#playerCard1Value {
+#playerCard1ValueDisplay {
   display: block;
 }
 #playerCardOutline2 {
@@ -92,8 +92,6 @@
 #playerBottomOfCard2 {
   text-align: right;
 }
-#playerCard2Value {
+#playerCard2ValueDisplay {
   display: block;
-}
-#playersHandVisual {
 }
